@@ -12,11 +12,11 @@ h3 {
   font-family: "Oxygen", sans-serif; }
 
 .text-color-primary {
-  color: #e21900; }
+  color: #38761d; }
 
 .text-lego-primary {
   font: bold 1.1em "Montserrat", sans-serif;
-  color: #e21900; }
+  color: #38761d; }
 
 .text-lego-secondary-default {
   font: 300 1em "Oxygen" "Oxygen", sans-serif;
@@ -81,19 +81,19 @@ a {
       text-align: center;
       display: inline-block;
       float: left;
-      background: #e21900;
+      background: #38761d;
       color: white;
       text-decoration: none;
       border-right: 1px solid white; }
       .card .card-links span:hover, .card .card-links a:hover {
         text-decoration: none;
         cursor: pointer;
-        color: #e21900;
+        color: #38761d;
         background: white; }
 
 .divider {
   margin: 20px 0px 10px;
-  border-top: 2px solid #e21900;
+  border-top: 2px solid #38761d;
   line-height: 15px; }
   .divider .fa {
     width: 50px;
@@ -104,7 +104,7 @@ a {
   width: 60px;
   height: 2px;
   display: block;
-  background-color: #e21900;
+  background-color: #38761d;
   padding: 0 !important;
   margin: 10px auto 20px; }
 
@@ -181,7 +181,7 @@ a {
   border-radius: 0px;
   margin-bottom: 0px; }
   .navbar-lego .navbar-toggle {
-    border: 2px solid #e21900;
+    border: 2px solid #38761d;
     color: white; }
   .navbar-lego a {
     color: white;
@@ -189,9 +189,9 @@ a {
   .navbar-lego li > a:focus {
     background: #212121; }
   .navbar-lego li > a:hover {
-    background-color: #e21900; }
+    background-color: #38761d; }
   .navbar-lego li.active > a {
-    border-bottom: 3px solid #e21900; }
+    border-bottom: 3px solid #38761d; }
 
 #contact .container .col-sm-6 {
   margin-bottom: 30px; }
