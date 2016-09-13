@@ -40,6 +40,14 @@ h3 {
   font-size: 0.9em;
 }
 
+.text-color-original {
+  color: $lego-original-color;
+}
+
+.text-lego-original {
+  font: bold 1.1em $font-primary;
+  color: $lego-original-color;
+}
 
 a {
   cursor: pointer;

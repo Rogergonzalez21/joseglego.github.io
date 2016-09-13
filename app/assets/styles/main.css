@@ -32,6 +32,13 @@ h3 {
   font-weight: 300;
   font-size: 0.9em; }
 
+.text-color-original {
+  color: #e21900; }
+
+.text-lego-original {
+  font: bold 1.1em "Montserrat", sans-serif;
+  color: #e21900; }
+
 a {
   cursor: pointer; }
 
@@ -143,7 +150,7 @@ a {
   height: 100px;
   width: 100px;
   margin: 0 auto 10px;
-  border: 4px solid rgba(192, 57, 43, 0.4);
+  border: 4px solid #38761d;
   border-radius: 50%;
   -o-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -151,7 +158,7 @@ a {
   .outline .fa {
     line-height: 100px;
     font-size: 50px;
-    color: #C0392B; }
+    color: #38761d; }
 
 .section {
   border-top: #d1d1d1 1px solid;

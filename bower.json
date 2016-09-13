@@ -24,6 +24,7 @@
     "sweetalert": "^1.1.3",
     "animate.css": "^3.5.2",
     "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#^9.1.4",
-    "font-awesome": "fontawesome#^4.6.3"
+    "font-awesome": "fontawesome#^4.6.3",
+    "slick-carousel": "^1.6.0"
   }
 }
