@@ -160,7 +160,6 @@ $(document).ready(function() {
   $('#index').backstretch([
     './assets/images/backgrounds/index0.jpg',
     './assets/images/backgrounds/index1.jpg',
-    './assets/images/backgrounds/index2.jpg'    
   ], {
     duration: 4000,
     fade: 750
