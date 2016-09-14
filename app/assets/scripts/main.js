@@ -27,7 +27,7 @@ $(document).ready(function() {
 
   //// 0. Waiting Message: Show Message
   var waitingStart = function() {
-    sending = swal('Wait...', 'Sending your email. It will close when finish.');
+    sending = swal('Wait...', 'Sending your email...');
   };
 
   //// 0. Waiting Message: Close Message
@@ -38,7 +38,7 @@ $(document).ready(function() {
   //// 0. Send Email
   var sendEmail = function() {
     $.ajax({
-      url: 'https://formspree.io/me@joseglego.io',
+      url: 'https://formspree.io/rogergonzalez21@gmail.com',
       method: 'POST',
       data: {
         name: $('#name').val(),
@@ -56,12 +56,12 @@ $(document).ready(function() {
       $('#message').val('');
       swal.close();
       setTimeout(function() {
-        swal('Great', 'Your email was sent. I will contact you, '+name+', soon. Thank you', 'success');
+        swal('Great', 'Your email was sent. I will contact you soon. Thank you', 'success');
       }, 500);
     }).fail(function(response) {
       swal.close();
       setTimeout(function() {
-        swal('Oops...', 'An error ocurred. Please, try again send the email!', 'error');
+        swal('Oops...', 'An error ocurred. Please, try again!', 'error');
       },500);
     });
   };
@@ -148,7 +148,7 @@ $(document).ready(function() {
     $('#name').focus();
     sweetAlert({
       title: 'Write Me',
-      text: 'You can write me though the Contact form. You will be writing your name when this message closes (it will close automatically).',
+      text: 'You can write me though the Contact form. You will be on the form when this message closes (it will close automatically).',
       timer: 7000,
       showConfirmButton: true
     });
