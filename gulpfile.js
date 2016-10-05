@@ -74,7 +74,7 @@ gulp.task('serve', ['browserSync', 'sass'], function (){
 gulp.task('useref', function(){
   return gulp.src('app/index.html')
     .pipe(useref())
-    .pipe(gulpIf('*.js', uglify()))
+    //.pipe(gulpIf('*.js', uglify()))
     .pipe(gulpIf('*.css', cssnano()))
     .pipe(gulpIf('*.html', htmlmin({collapseWhitespace: true})))
     .pipe(gulp.dest('dist'));
